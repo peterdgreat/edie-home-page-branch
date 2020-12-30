@@ -339,8 +339,19 @@ color: #333333;
   flex: 1;
 }
 
-.result {
-  max-width: 80%;
+.result {width: 351px;
+  height: 180px;
+
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  
+  /* Gray 1 */
+  
+  color: #333333;
 }
 .relative img {
   width: 5em;
@@ -351,29 +362,141 @@ color: #333333;
 }
 .absolute h5 {
   margin-bottom: 1em;
+  width: 140px;
+height: 36px;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+
+/* Gray 1 */
+
+color: #333333;
+}
+.absolute h6{
+  width: 191px;
+height: 27px;
+left: 122px;
+top: 5341px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+
+/* Gray 3 */
+
+
 }
 .absolute {
   position: relative;
   top: 1em;
 }
 footer {
-  background-color: rgba(0, 0, 0, 0.911);
+  height: 693px;
+
+  background: #100E1D;
 }
 .footer-link {
   margin: 1em 0 1em 4em;
+  width: 92px;
+height: 180px;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 200%;
+/* or 36px */
+
 }
 .footer-link a {
   display: block;
-  color: white;
+
+  color: #FFFFFF;
   margin-bottom: 0.5em;
 }
+.footer-link h6{
+  width: 232px;
+  height: 21px;
+  
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  
+  /* Gray 3 */
+  
+  
+}
 
-.grid h6 {
-  color: rgba(255, 0, 0, 0.747);
+.grid h6 {width: 280px;
+  height: 27px;
+  
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  
+  
+  color: #EB5757;
+}
+.grid h4{
+  width: 280px;
+height: 162px;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 54px;
+
+/* Gray 1 */
+
+color: #333333;
+
+}
+.grid p{
+  width: 273px;
+  height: 48px;
+  
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  
+  /* Gray 2 */
+  
+  color: #4F4F4F;
 }
 
 .h6 {
   color: white;
+}
+.btn{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #f2f2f2;
+  background: #2d9cdb;
+  border-radius: 12px;
 }
 .btn-info {
   width: 116px;
@@ -393,6 +516,9 @@ footer {
 
   color: #ffffff;
 }
+.contact i{
+  margin-right: 1em;
+}
 .mail input {
   width: 24.2em;
   border-radius: 0.5em;
@@ -403,9 +529,19 @@ footer {
   left: 25.5em;
   margin-top: 0.1em;
 }
-.name {
-  color: white;
-  text-align: center;
+.name {width: 226px;
+  height: 17px;
+
+  margin: 0 auto;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  
+  
+  color: #A9A9A9;
 }
 .resize {
   height: 3em;
@@ -460,6 +596,109 @@ body {
 
     color: #333333;
   }
+  .grid h6{
+    height: 27px;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+  }
+  .grid h4{
+    width: 280px;
+height: 162px;
+
+
+font-weight: 500;
+font-size: 36px;
+line-height: 54px;
+
+/* Gray 1 */
+
+color: #333333;
+  }
+  .grid p{
+    width: 273px;
+height: 48px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+  }
+  .result{
+    width: 937px;
+height: 162px;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 54px;
+  }
+  .absolute h5{
+    width: 140px;
+height: 36px;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+
+/* Gray 1 */
+
+color: #333333;
+  }
+  .absolute h6{
+    width: 191px;
+height: 27px;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+
+/* Gray 3 */
+
+color: #828282;
+  }
+  footer{
+    height: 385px;
+  }
+  .footer-link{
+    width: 92px;
+height: 180px;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 200%;
+  }
+.footer-link h6{
+  width: 172px;
+height: 21px;
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+}
   .navbar-light .navbar-nav .nav-link {
     font-family: Poppins;
     font-style: normal;
@@ -470,6 +709,21 @@ body {
     /* Gray 1 */
 
     color: #333333;
+  }
+  .name{
+    width: 226px;
+height: 17px;
+
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #A9A9A9;
   }
   .info {
     margin: 4em 0 2em 10em;
@@ -491,6 +745,7 @@ body {
   .info h4 {
  
     height: 144px;
+    width: 543px;
 
     font-size: 48px;
     line-height: 72px;
@@ -501,7 +756,6 @@ body {
 
     font-weight: 500;
     font-size: 48px;
-    line-height: 72px;
   }
   .info-2 p {
   
